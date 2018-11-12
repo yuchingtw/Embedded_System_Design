@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="來源檔案">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="資源檔">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="資源檔\FreeRTOS">
+      <UniqueIdentifier>{41c76c92-bbe2-42fd-b005-b088f52ca437}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="資源檔\FreeRTOS\include">
+      <UniqueIdentifier>{1de32f0e-6982-440f-b770-3e835d9051a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="資源檔\FreeRTOS\protable">
+      <UniqueIdentifier>{bbb56e87-87e2-4841-b356-f71e7fd60c7a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\FreeRTOS\Source\include\croutine.h">
+      <Filter>資源檔\FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FreeRTOS\Source\include\deprecated_definitions.h">
+      <Filter>資源檔\FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FreeRTOS\Source\include\event_groups.h">
+      <Filter>資源檔\FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FreeRTOS\Source\include\FreeRTOS.h">
+      <Filter>資源檔\FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FreeRTOS\Source\include\list.h">
+      <Filter>資源檔\FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FreeRTOS\Source\include\mpu_prototypes.h">
+      <Filter>資源檔\FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FreeRTOS\Source\include\mpu_wrappers.h">
+      <Filter>資源檔\FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FreeRTOS\Source\include\portable.h">
+      <Filter>資源檔\FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FreeRTOS\Source\include\projdefs.h">
+      <Filter>資源檔\FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FreeRTOS\Source\include\queue.h">
+      <Filter>資源檔\FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FreeRTOS\Source\include\semphr.h">
+      <Filter>資源檔\FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FreeRTOS\Source\include\StackMacros.h">
+      <Filter>資源檔\FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FreeRTOS\Source\include\task.h">
+      <Filter>資源檔\FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FreeRTOS\Source\include\timers.h">
+      <Filter>資源檔\FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeRTOSConfig.h">
+      <Filter>資源檔</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\FreeRTOS\Source\include\stdint.readme">
+      <Filter>資源檔\FreeRTOS\include</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\FreeRTOS\Source\portable\MSVC-MingW\port.c">
+      <Filter>資源檔\FreeRTOS\protable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FreeRTOS\Source\portable\MemMang\heap_1.c">
+      <Filter>資源檔\FreeRTOS\protable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FreeRTOS\Source\list.c">
+      <Filter>資源檔\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FreeRTOS\Source\queue.c">
+      <Filter>資源檔\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FreeRTOS\Source\tasks.c">
+      <Filter>資源檔\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>資源檔</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
